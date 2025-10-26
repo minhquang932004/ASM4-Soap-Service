@@ -1,0 +1,6 @@
+@ElectricVehicleM.SoapService.QuangNM_HostAddress = http://localhost:5217
+
+GET {{ElectricVehicleM.SoapService.QuangNM_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

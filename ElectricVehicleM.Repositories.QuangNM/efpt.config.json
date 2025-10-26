@@ -1,0 +1,97 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "FA25_PRN232_SE1717_G1_ElectricVehicleManagementContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "ElectricVehicleM.Repositories.QuangNM",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[CustomersBaoTDQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealerContractsMinhNQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealersMinhNQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OrderItemsMinhPHN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PromotionsQuangNM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PromotionUsageQuangNM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportDetailsPhucLT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReportsPhucLT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalesOrdersMinhPHN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[System.UserAccount]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TestDriveAppointmentsBaoTDQ]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VehicleFeaturesDatPHT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VehiclesDatPHT]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
