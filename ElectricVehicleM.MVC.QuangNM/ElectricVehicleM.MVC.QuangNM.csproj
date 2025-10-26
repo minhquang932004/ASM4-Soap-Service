@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Connected Services\ServiceReference1\ConnectedService.json" />
+    <Content Remove="Connected Services\ServiceReference2\ConnectedService.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference1\ConnectedService.json" />
+    <None Include="Connected Services\ServiceReference2\ConnectedService.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.33.0" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.71.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.72.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+	 <PackageReference Include="System.ServiceModel.Http" Version="8.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElectricVehicleM.SoapService.QuangNM\ElectricVehicleM.SoapService.QuangNM.csproj" />
+  </ItemGroup>
+
+</Project>

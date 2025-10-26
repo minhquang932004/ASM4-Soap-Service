@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehicleM.Repositories.QuangNM", "ElectricVehicleM.Repositories.QuangNM\ElectricVehicleM.Repositories.QuangNM.csproj", "{89C44AAE-1F3A-5791-87D3-8BF1B4BB8E9E}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehicleM.SoapService.QuangNM", "ElectricVehicleM.SoapService.QuangNM\ElectricVehicleM.SoapService.QuangNM.csproj", "{FF07A357-0693-49E4-8D0F-0C607BCDAB6D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehicleM.SoapClient.ConsoleApp.QuangNM", "ElectricVehicleM.ConsoleApp.QuangNM\ElectricVehicleM.SoapClient.ConsoleApp.QuangNM.csproj", "{56ED889A-AE7E-40B2-8BE6-AA3BCF622EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricVehicleM.MVC.QuangNM", "ElectricVehicleM.MVC.QuangNM\ElectricVehicleM.MVC.QuangNM.csproj", "{12FA42D0-0A7E-7C15-9D0F-C88FD95F89F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{56ED889A-AE7E-40B2-8BE6-AA3BCF622EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56ED889A-AE7E-40B2-8BE6-AA3BCF622EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56ED889A-AE7E-40B2-8BE6-AA3BCF622EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12FA42D0-0A7E-7C15-9D0F-C88FD95F89F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12FA42D0-0A7E-7C15-9D0F-C88FD95F89F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12FA42D0-0A7E-7C15-9D0F-C88FD95F89F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12FA42D0-0A7E-7C15-9D0F-C88FD95F89F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

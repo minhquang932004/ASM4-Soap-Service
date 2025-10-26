@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ServiceReference1.PromotionsQuangNm>
+
+@{
+    ViewData["Title"] = "Promotions List";
+}
+
+<h2>Promotions List</h2>
+<a asp-action="Create" class="btn btn-primary">Create New Promotion</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Discount Rate</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Is Active</th>
+            <th>Applicable Model</th>
+            <th>Max Usage</th>
+            <th>Created At</th>
+            <th>Usage Id</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.PromotionQuangNmid</td>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td>@item.DiscountRate</td>
+                    <td>
+                        @(item.StartDate.HasValue ? item.StartDate.Value.ToString("yyyy-MM-dd") : "")
+                    </td>
+                    <td>
+                        @(item.EndDate.HasValue ? item.EndDate.Value.ToString("yyyy-MM-dd") : "")
+                    </td>
+                    <td>@item.IsActive</td>
+                    <td>@item.ApplicableModel</td>
+                    <td>@item.MaxUsage</td>
+                    <td>
+                        @(item.CreatedAt.HasValue ? item.CreatedAt.Value.ToString("yyyy-MM-dd") : "")
+                    </td>
+                    <td>@item.UsageQuangNmid</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.PromotionQuangNmid" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@item.PromotionQuangNmid" class="btn btn-warning btn-sm">Edit</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
